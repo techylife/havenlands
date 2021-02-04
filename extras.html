@@ -14,6 +14,12 @@
       function sendToDiscord() {
         location.replace("https://havenlands.tk/discord")
       }
+      function sendToEvents() {
+        location.replace("events.html")
+      }
+      function sendToGiveaways() {
+        location.replace("giveaways.html")
+      }
     </script>
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -24,13 +30,13 @@
             <span class="ml-3 text-xl">HavenLands</span>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <a href="index.html"  class="mr-5 hover:text-gray-900">Home</a>
-            <a href="https://havenlands.tk/vote" class="mr-5 hover:text-gray-900">Vote</a>
-            <a href="events.html" class="mr-5 hover:text-gray-900">Events</a>
-            <a href="contact_temp.html" class="mr-5 hover:text-gray-900">Contact Us</a>
-            <a href="aboutus.html" class="mr-5 hover:text-gray-900">About Us</a>
+            <a href="index.html"  class="mr-5 hover:text-indigo-500">Home</a>
+            <a href="https://havenlands.tk/vote" class="mr-5 hover:text-indigo-500">Vote</a>
+            <a href="extras.html" class="mr-5 hover:text-indigo-500 md:font-bold">Extras</a>
+            <a href="contact_temp.html" class="mr-5 hover:text-indigo-500">Contact Us</a>
+            <a href="aboutus.html" class="mr-5 hover:text-indigo-500">About Us</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" onclick="sendToDiscord()">Join Discord
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-base mt-4 md:mt-0" onclick="sendToDiscord()">Join Discord
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -38,16 +44,49 @@
         </div>
       </header>
       <!-- <div style="background-image: url('./lobby_1.png');"> -->
-      <section class="text-gray-600 body-font">
+      <!-- <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
-          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center h-screen">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-            </svg> -->
+            </svg>
             <p class="leading-relaxed text-lg">There are currently no Events in the server.<br>Please visit our Discord Server for the latest updates.</p>
             <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">MightyAkash</h2>
-            <p class="text-gray-500">Admin, Havenlands Staff Team</p>
+            <p class="text-gray-500">Developer, Havenlands Staff Team</p>
+          </div>
+        </div>
+      </section> -->
+      <section class="text-indigo-500 body-font bg-transparent w-screen">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <!-- <hr> -->
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-indigo-500 text-center">Extras</h1>
+            <!-- <h2 class="sm:text-4xl text-3xl mb-4 font-medium text-indigo-500">Join many more people and play different games</h2> -->
+            <!-- <p class="mb-8 leading-relaxed">It is a very friendly server with many games like Bedwars, Survival, Skyblock, Skywars, UHC and many more.</p> -->
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font h-screen">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="event.png">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Events</h2>
+              <p class="leading-relaxed text-base">The details of the wonderful and exciting events being held in the server.</p>
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" onclick="sendToEvents()">Go</button>
+            </div>
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="giveaway.png">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Giveaways</h2>
+              <p class="leading-relaxed text-base">The details of the exciting giveaways held in the server.</p>
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" onclick="sendToGiveaways()">Go
+              </button>
+            </div>
           </div>
         </div>
       </section>
